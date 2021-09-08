@@ -1,0 +1,1 @@
+This project will be the creation of the game rock, paper, scissors. The player will be playing against the computer, which will be generating a random choice of the three options.
