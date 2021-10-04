@@ -3,10 +3,24 @@
 <head>
   <title>Page Title</title>
   <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="game.js" defer></script>
 </head>
 <body>
-  <script>
-      
-  </script>
+  <header>
+    <div id="scoreboard">
+    <h2 id="player">Player: <span id="pScore"></span></h2>
+    <h2 id="computer">Bot: <span id="cScore"></span></h2>
+    </div>
+    <h2><span id="commentary"></span></h2>
+  </header>
+  <main>
+  <div id="choices">
+  <img src="rock.jpg" data-selection="rock">
+  <img src="paper.jpg" data-selection="paper">
+  <img src="scissors.jpg" data-selection="scissors">
+  </div>
+  </main>
 </body>
 </html>

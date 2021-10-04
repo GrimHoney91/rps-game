@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&display=swap');
+html {
+    background-image: url("field.jpg");
+    background-size: cover;
+    font-size: 10px;
+    font-family: 'Dosis', sans-serif;
+    color: purple;
+}
+header {
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+    height: 10rem;
+}
+#scoreboard {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#player {
+    color: blue;
+}
+#pScore {
+    color: green;
+}
+#computer {
+    color: red;
+}
+#cScore {
+    color: yellow;
+}
+#commentary {
+    margin-top: 2rem;
+}
+
+#choices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35rem;
+}
+img {
+    width: auto;
+    height: 25rem;
+    color: white;
+    font-size: 3rem;
+}
+img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
